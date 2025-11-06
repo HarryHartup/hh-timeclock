@@ -30,7 +30,7 @@ Open `index.html` in any modern web browser.
 This is vibe coded and in no way is this a polished piece of software. I'm not smart lol
 
 ## Versions
-1.0.0 First Deployment of LIVEAR Model
-1.1.0 (WIP) Solo Operator Mode
+- 1.0.0 First Deployment of LIVEAR Model
+- 1.1.0 (WIP) Solo Operator Mode
 
 ```
