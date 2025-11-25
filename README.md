@@ -18,7 +18,7 @@ A game time tracking and replay timer tool.
 - `CTRL + T` - Tag current time with note
 - `CTRL + C` - Clear main timer
 - `CTRL + V` - Clear all timers
-- `CTRL + =` or `CTRL + +` - Start 25-second timer
+- `CTRL + =` or `CTRL + +` - Start 23-second timer
 - `CTRL + ,` - Skip back 10 seconds
 - `CTRL + .` - Skip forward 10 seconds
 - `CTRL + ?` - Manually set game time
