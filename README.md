@@ -38,8 +38,6 @@ Quick Start
 
 Clone this repository:
 
-bashgit clone https://github.com/yourusername/hh-timeclock.git
-
 Open index.html in any modern web browser
 
 That's it! No build process, no dependencies to install. The application runs entirely in the browser.
