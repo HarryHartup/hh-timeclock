@@ -818,7 +818,7 @@
               {isFirstHalf ? 'First Half' : 'Second Half'} • {isGameTimePaused ? 'Paused' : 'Running'}
             </div>
             <div className="text-gray-500 text-xs mt-3">
-              Press Ctrl+K to {isGameTimePaused ? 'start/continue' : 'running...'}
+              Press ! to {isGameTimePaused ? 'start/continue' : 'running...'}
             </div>
           </div>
 
@@ -868,21 +868,21 @@
             <div className="bg-gray-800 rounded-lg p-4 mb-2 text-sm">
               <div className="text-orange-500 font-bold mb-3">Keyboard Commands</div>
               <div className="space-y-2 text-gray-300">
-                <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">Ctrl+K</span> - Start/continue</div>
-                <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">Ctrl+L</span> - Pause</div>
-                <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">Ctrl+[</span> - Set 00:00</div>
-                <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">Ctrl+]</span> - Set 45:00</div>
-                <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">Ctrl+T</span> - Tag time</div>
+                <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">!</span> - Start/continue</div>
+                <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">"</span> - Pause</div>
+                <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">£</span> - Set 00:00</div>
+                <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">$</span> - Set 45:00</div>
+                <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">_</span> - Tag time</div>
                 {!isSoloMode && (
                   <>
-                    <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">Ctrl+C</span> - Clear main timer</div>
-                    <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">Ctrl+V</span> - Clear all timers</div>
-                    <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">Ctrl+=</span> - Start 23s timer</div>
+                    <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">&lt;</span> - Clear main timer</div>
+                    <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">&gt;</span> - Clear all timers</div>
+                    <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">?</span> - Start 23s timer</div>
                   </>
                 )}
-                <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">Ctrl+,</span> - Back 10s</div>
-                <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">Ctrl+.</span> - Forward 10s</div>
-                <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">Ctrl+?</span> - Set time</div>
+                <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">:</span> - Back 10s</div>
+                <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">@</span> - Forward 10s</div>
+                <div><span className="font-mono bg-gray-700 px-2 py-1 rounded">%</span> - Set time</div>
               </div>
             </div>
           )}
@@ -1007,7 +1007,7 @@
         <div className="flex-1 flex items-center justify-center bg-gray-800">
           {!mainTimer ? (
             <div className="text-gray-500 text-3xl font-medium">
-              {isSoloMode ? 'Solo Operator Mode' : 'Press Ctrl+= to start a timer'}
+              {isSoloMode ? 'Solo Operator Mode' : 'Press ? to start a timer'}
             </div>
           ) : (
             <div
